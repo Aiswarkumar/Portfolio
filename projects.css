@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv1{
+    width: 360px;
+    margin-bottom: 50px;
+    height: 745px;
+    background-color: rgb(200, 200, 200);
+}
+.pic1{
+    margin-left: 88px;
+    margin-top: 60px;
+}
+ /* .e1{ 
+    margin-bottom: 50px;
+    text-decoration: none;
+} */
+ .a1,.a2,.a3,.a4,.a5{ 
+    margin-top: 50px;
+    margin-left: 120px;
+    /* padding-bottom: 100px; */
+    /* margin-bottom: 100px; */
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    
+} 
+/* .a1{
+    color: rgb(235, 232, 232);
+    text-decoration: none;
+    list-style-type: none;
+} */
+.b12,.c12,.a12,.e12{
+    text-decoration: none;
+    color: black;
+}
+.d12{
+    color: rgb(162, 58, 58);
+    text-decoration: none;
+    /* list-style-type: none; */
+}
+body{
+    background-color: black;
+    /* overflow: hidden; */
+}
+.proj{
+    /* margin-top: -720px; */
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 250px;
+    color: white;
+}
+section{
+    position: fixed;
+}
+.dp{
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-color: black;
+    transition: 0.5s;
+}
+.cont1{
+    margin-left: 400px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+    color: white;
+}
+.cont2{
+    margin-left: 400px;
+    margin-top: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.cont3{
+    margin-left: 400px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+}
+.dp:hover{
+    transform: scale(1.1);
+    z-index: 1;
+
+}
+.second{
+    margin-left: 550px;
+    margin-top: -410px;
+}
+.third{
+    margin-top: 50px;
+}
+.fourth{
+    margin-left: 550px;
+    margin-top: -380px;
+}
+.dp1{
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.fifth,.seventh{
+    margin-top: 50px;
+}
+.sixth{
+    margin-left: 550px;
+    margin-top: -380px;
+}
+.http1{
+    color: white;
+}

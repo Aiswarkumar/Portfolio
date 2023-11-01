@@ -1,0 +1,117 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv1{
+    width: 360px;
+    margin-bottom: 50px;
+    height: 745px;
+    background-color: rgb(200, 200, 200);
+}
+.pic1{
+    margin-left: 88px;
+    margin-top: 60px;
+}
+ /* .e1{ 
+    margin-bottom: 50px;
+    text-decoration: none;
+} */
+ .a1,.a2,.a3,.a4,.a5{ 
+    margin-top: 50px;
+    margin-left: 120px;
+    /* padding-bottom: 100px; */
+    /* margin-bottom: 100px; */
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    
+} 
+/* .a1{
+    color: rgb(235, 232, 232);
+    text-decoration: none;
+    list-style-type: none;
+} */
+.b12,.c12,.d12,.e12{
+    text-decoration: none;
+   color: black;
+}
+.a12{
+    /* color: rgb(235, 232, 232); */
+    text-decoration: none;
+    color: rgb(162, 58, 58);
+    /* list-style-type: none; */
+}
+body{
+    background-color: black;
+}
+.b1{
+    margin-top: -570px;
+    color: white;
+    font-size: 50px;
+    margin-left: 500px;
+    /* font-family: monospace; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    
+}
+.b2{
+    margin-left: 500px;
+    color: white;
+    margin-top: -550px;
+    font-size: 32px;
+    /* font-family: monospace; */
+    font-family: 'Outfit', sans-serif;
+}
+.b3{
+    margin-left: 500px;
+    color: white;
+    margin-top: 60px;
+    font-weight: lighter;
+    font-size: 26px;
+    font-family: 'Lexend', sans-serif;
+}
+/* .btn{
+    width: 150px;
+    height: 50px;
+    background-color:#8D90D5;
+    font-size: 20px;
+    border-radius: 7px;
+    border-style: none;
+    margin-left: 500px;
+    margin-top: 60px;
+} */
+.b4{
+    margin-top: 90px;
+    font-size: 28px;
+    margin-left: 500px;
+    font-family: 'Lexend', sans-serif;
+}
+.pic2{
+    width: 30%;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.res1{
+    /* float: right; */
+    width: 230px;
+    height: 50px;
+    margin-left: 500px;
+    /* margin-right: 170px; */
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    /* color: white; */
+    font-family: 'Montserrat', sans-serif;
+  
+
+}
+.down{
+  text-decoration: none;
+  color: black;
+}

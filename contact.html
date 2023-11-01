@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('rNIPSCc2bvi6e2D-W');
+    })();
+</script>
+</head>
+<body>
+    <div class="maindiv1">
+        <img class="pic1" src="pics/Ellipse 2 (1).png" alt="">
+        <h1 class="a1"> <a class="a12" href="index.html">Home</a></h1>
+        <h1 class="a2"> <a class="b12" href="about.html">About</a></h1>
+        <h1 class="a3"> <a class="c12" href="resume.html">Resume</a></h1>
+        <h1 class="a4"> <a class="d12" href="projects.html">Projects</a></h1>
+        <h1 class="a5"> <a class="e12" href="contact.html">Contact</a></h1>
+
+    </div>
+      
+    <p class="contact">CONTACT ME</p>
+    <div class="f1">
+     
+            <label class="n1" for="Name">Name:</label> <br>
+            <input class="n2" id="from_name" type="text" placeholder="Enter your name" required> <br>
+            <label class="email1" for="Email">Email:</label> <br>
+            <input class="email2" id="email" type="email" placeholder="Enter your Email id"> <br>
+            <label class="m1" for="Mobile no">Mobile no:</label> <br>
+            <input class="m2" id="mobile" type="number" placeholder="Enter your mobile no" required> <br>
+            <label class="mess" for="Message">Message:</label>
+            <input class="mess1" id="message1" type="text" placeholder="Your message:">
+            <div class="bn">
+                <button class="btn" type="submit" id="btn">Submit</button>
+            </div>
+           
+            
+
+
+        <script>
+            let btn = document.getElementById("btn")
+            btn.addEventListener("click",() => {
+                if (document.getElementById("mobile").value == "") {
+                    alert("please enter your mobile")
+                } 
+               else if (document.getElementById("from_name").value == "") {
+                    alert("please enter your name")
+                } 
+                else {
+                    const datas= {
+from_name: document.getElementById("from_name").value,
+email:  document.getElementById("email").value,
+mobile:  document.getElementById("mobile").value,
+message1:  document.getElementById("message1").value,
+}
+                emailjs.send("service_nlbrp4h","template_iiwd5mf",datas).then(()=>{
+                    alert("Data has been sent successfully. we will contact you shortly")
+                });    
+                }
+               
+            }
+)
+                     
+        </script>
+    </div>
+</html>

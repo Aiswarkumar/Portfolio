@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv1{
+    width: 360px;
+    height: 745px;
+    background-color: rgb(200, 200, 200);
+    /* position: fixed; */
+}
+.pic1{
+    margin-left: 88px;
+    margin-top: 60px;
+}
+.a1,.a2,.a3,.a4,.a5{
+    margin-top: 50px;
+    margin-left: 120px;
+    font-family: 'Lexend', sans-serif;
+}
+.a2{
+    color: rgb(235, 232, 232);
+}
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.a12,.b12,.d12,.e12{
+    text-decoration: none;
+    color: black;
+}
+.c12{
+    color: rgb(162, 58, 58);
+    text-decoration: none;
+    /* list-style-type: none; */
+}
+.img1{
+    margin-top: -780px;
+    margin-left: 500px;
+    height: 760px;
+    /* width: 600px; */
+    /* text-align: center; */
+}
+.res{
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    margin-top: -500px;
+    margin-left: 950px;
+    color: white;
+}
+.res1{
+    float: right;
+    width: 170px;
+    height: 50px;
+    margin-right: 170px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+    /* color: white; */
+
+}
+.down{
+  text-decoration: none;
+  color: black;
+  /* background-color: white; */
+}
+span{
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
